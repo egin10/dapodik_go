@@ -92,7 +92,7 @@ func main() {
 			}
 		case "json":
 			// Generate to json file
-			errjson := utils.WriteJSON(listDataSekolah)
+			errjson := utils.WriteJSON(listDataSekolah, options.SatuanPendidikan, options.Provinsi)
 			if errjson != nil {
 				fmt.Println("Unable to create json file 🗿")
 			}
