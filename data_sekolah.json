@@ -1,0 +1,686 @@
+[
+ {
+  "IdentitasSekolah": {
+   "Nama": "RA AR-RAHMAN",
+   "NPSN": "69977335",
+   "Alamat": "PULAU TIDUNG",
+   "DesaKeluarahan": "PULAU TIDUNG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "SWASTA",
+   "BentukPendidikan": "RA"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Agama",
+   "Nauangan": "",
+   "NPYP": "-",
+   "NoSKPendirian": "134 Tahun 2018",
+   "TanggalSKpendirian": "22-01-2017",
+   "NoSKOperasional": "134 Tahun 2018",
+   "TanggalSKOperasional": "22-01-2017",
+   "TanggalUploadSKOperasional": "2018-05-25 16:44:10.037",
+   "Akreditasi": "-"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "0 m2",
+   "AksesInternet1": "1.",
+   "AksesInternet2": "2.",
+   "SumberListrik": "-"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "RA/BA/TA AL ISHLAH ISLAMIYAH",
+   "NPSN": "69733095",
+   "Alamat": "Jl. Madrsah Rt004/01",
+   "DesaKeluarahan": "PULAU TIDUNG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "SWASTA",
+   "BentukPendidikan": "RA"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Agama",
+   "Nauangan": "",
+   "NPYP": "-",
+   "NoSKPendirian": "Mj-2/50a/PP.004/03/2001",
+   "TanggalSKpendirian": "08-02-2001",
+   "NoSKOperasional": "834 TAHUN 2016",
+   "TanggalSKOperasional": "05-05-2016",
+   "TanggalUploadSKOperasional": "-",
+   "Akreditasi": "-"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "142 m2",
+   "AksesInternet1": "1.",
+   "AksesInternet2": "2.",
+   "SumberListrik": "-"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "SPS ANUGERAH PULAU TIDUNG",
+   "NPSN": "69768539",
+   "Alamat": "LAPANGAN HIJAU",
+   "DesaKeluarahan": "PULAU TIDUNG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "SWASTA",
+   "BentukPendidikan": "SPS"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Lainnya",
+   "NPYP": "AA0006",
+   "NoSKPendirian": "",
+   "TanggalSKpendirian": "-",
+   "NoSKOperasional": "819.5/SPS-08/KAB/IX/2011",
+   "TanggalSKOperasional": "-",
+   "TanggalUploadSKOperasional": "-",
+   "Akreditasi": "C"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "225 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. -",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "bkbpaud_anugerah@yahoo.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "SPS NEGERI BALE BERMAIN BUNGA MAWAR",
+   "NPSN": "69768540",
+   "Alamat": "PULAU UNTUNG JAWA",
+   "DesaKeluarahan": "PULAU UNTUNG JAWA",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "SPS"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "",
+   "NPYP": "-",
+   "NoSKPendirian": "740 TAHUN 2020",
+   "TanggalSKpendirian": "17-07-2020",
+   "NoSKOperasional": "819.6/SPS-08/KAB/IX/2011",
+   "TanggalSKOperasional": "11-07-2011",
+   "TanggalUploadSKOperasional": "2020-09-21 16:05:04.437",
+   "Akreditasi": "B"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "975 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. 5 Mb",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "kbbungamawar@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "SPS NEGERI BALE BERMAIN NUSA INDAH",
+   "NPSN": "69768546",
+   "Alamat": "PULAU UNTUNG JAWA",
+   "DesaKeluarahan": "PULAU UNTUNG JAWA",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "SPS"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Pemerintah Daerah",
+   "NPYP": "-",
+   "NoSKPendirian": "740 TAHUN 2020",
+   "TanggalSKpendirian": "17-07-2020",
+   "NoSKOperasional": "1037/SPS-08/KAB/IX/2010",
+   "TanggalSKOperasional": "19-07-2010",
+   "TanggalUploadSKOperasional": "2020-09-21 16:10:39.563",
+   "Akreditasi": "B"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "300 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. -",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "nusaindah593@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "SPS NEGERI BALE BERMAIN PAYUNG CERIA",
+   "NPSN": "70000830",
+   "Alamat": "Pulau Payung RT 006 RW 004",
+   "DesaKeluarahan": "PULAU TIDUNG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "SPS"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Pemerintah Daerah",
+   "NPYP": "-",
+   "NoSKPendirian": "740 TAHUN 2020",
+   "TanggalSKpendirian": "17-07-2020",
+   "NoSKOperasional": "1759/AG.2/31.01.02.1002/-071.569/2019",
+   "TanggalSKOperasional": "14-04-2019",
+   "TanggalUploadSKOperasional": "2020-09-21 16:03:48.067",
+   "Akreditasi": "C"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "72 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. 1 Mb",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "paudpayungceria@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "SPS NEGERI BALE BERMAIN PERMATA BUNDA",
+   "NPSN": "69768544",
+   "Alamat": "PULAU LANCANG",
+   "DesaKeluarahan": "PULAU PARI",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "SPS"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "",
+   "NPYP": "-",
+   "NoSKPendirian": "740 TAHUN 2020",
+   "TanggalSKpendirian": "17-07-2020",
+   "NoSKOperasional": "1036/SPS-08/KAB/X/10",
+   "TanggalSKOperasional": "12-07-2010",
+   "TanggalUploadSKOperasional": "2020-09-21 16:11:43.640",
+   "Akreditasi": "C"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "2.030 m2",
+   "AksesInternet1": "1.",
+   "AksesInternet2": "2.",
+   "SumberListrik": "-"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "bbpermatabunda@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "SPS NEGERI BALE BERMAIN TUNAS BAHARI",
+   "NPSN": "69768543",
+   "Alamat": "JL.PANTAI SELATAN RT.003/02",
+   "DesaKeluarahan": "PULAU TIDUNG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "SPS"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Pemerintah Daerah",
+   "NPYP": "-",
+   "NoSKPendirian": "740 TAHUN 2020",
+   "TanggalSKpendirian": "17-07-2020",
+   "NoSKOperasional": "1038/SPS-08/KAB/IX/2010",
+   "TanggalSKOperasional": "19-07-2010",
+   "TanggalUploadSKOperasional": "2020-10-28 10:06:38.860",
+   "Akreditasi": "C"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "68 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. -",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "spsnbb.tunasbahari1@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "SPS POS PAUD ASSYUKRU PULAU PARI",
+   "NPSN": "69768545",
+   "Alamat": "PULAU LANCANG RT 02/02",
+   "DesaKeluarahan": "PULAU PARI",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "SWASTA",
+   "BentukPendidikan": "SPS"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Yayasan Pendidikan Assyukru Pulau Seribu",
+   "NPYP": "AA0015",
+   "NoSKPendirian": "24/27.I.O/31.01.02.1003/-1.851.192/2018",
+   "TanggalSKpendirian": "02-02-2018",
+   "NoSKOperasional": "005/C/PAUD/VII/2018",
+   "TanggalSKOperasional": "27-07-2018",
+   "TanggalUploadSKOperasional": "2023-08-08 13:32:44.720",
+   "Akreditasi": "B"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "19 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. 30 Mb",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "paudassyukru0920@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "TK NEGERI PULAU PARI 01",
+   "NPSN": "69768535",
+   "Alamat": "PENDIDIKAN RT. 002/04 PULAU PARI",
+   "DesaKeluarahan": "PULAU PARI",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "TK"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Pemerintah Daerah",
+   "NPYP": "-",
+   "NoSKPendirian": "1053 tahun 2018",
+   "TanggalSKpendirian": "09-07-2018",
+   "NoSKOperasional": "1053 tahun 2018",
+   "TanggalSKOperasional": "09-07-2018",
+   "TanggalUploadSKOperasional": "2018-07-20 17:55:37.830",
+   "Akreditasi": "C"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "4.002 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. 30 Mb",
+   "SumberListrik": "Menumpang"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "tknegeripulaupari01@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "TK NEGERI PULAU TIDUNG 01",
+   "NPSN": "69768531",
+   "Alamat": "JL. KAMPUNG BARU RT. 001/01",
+   "DesaKeluarahan": "PULAU TIDUNG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "TK"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Pemerintah Daerah",
+   "NPYP": "-",
+   "NoSKPendirian": "1053 tahun 2018",
+   "TanggalSKpendirian": "09-07-2018",
+   "NoSKOperasional": "1053 tahun 2018",
+   "TanggalSKOperasional": "09-07-2018",
+   "TanggalUploadSKOperasional": "2018-07-20 17:56:49.120",
+   "Akreditasi": "B"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "2.070 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. -",
+   "SumberListrik": "Menumpang"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "tknegeri01pulautidung@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "TK NEGERI PULAU TIDUNG 02",
+   "NPSN": "69768532",
+   "Alamat": "Jl. Lapangan Hijau RT. 005/03 Pulau Tidung",
+   "DesaKeluarahan": "PULAU TIDUNG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "TK"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Pemerintah Daerah",
+   "NPYP": "-",
+   "NoSKPendirian": "1053 tahun 2018",
+   "TanggalSKpendirian": "09-07-2018",
+   "NoSKOperasional": "1053 tahun 2018",
+   "TanggalSKOperasional": "09-07-2018",
+   "TanggalUploadSKOperasional": "2020-03-12 09:52:17.627",
+   "Akreditasi": "B"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "180 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. 10 Mb",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "tktidungnoldua@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "TK NEGERI PULAU TIDUNG 03",
+   "NPSN": "69768533",
+   "Alamat": "Jl. Pendidikan Rt. 007/02",
+   "DesaKeluarahan": "PULAU TIDUNG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "TK"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Pemerintah Daerah",
+   "NPYP": "-",
+   "NoSKPendirian": "1053 tahun 2018",
+   "TanggalSKpendirian": "09-07-2018",
+   "NoSKOperasional": "1053 tahun 2018",
+   "TanggalSKOperasional": "09-07-2018",
+   "TanggalUploadSKOperasional": "2020-03-12 09:54:12.097",
+   "Akreditasi": "B"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "72 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. 10 Mb",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "tknegeripulautidung03@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "TK NEGERI PULAU UNTUNG JAWA 01",
+   "NPSN": "69768536",
+   "Alamat": "JL. PULAU NIRWANA RT. 002/03",
+   "DesaKeluarahan": "PULAU UNTUNG JAWA",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "NEGERI",
+   "BentukPendidikan": "TK"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Pemerintah Daerah",
+   "NPYP": "-",
+   "NoSKPendirian": "1053 tahun 2018",
+   "TanggalSKpendirian": "09-07-2018",
+   "NoSKOperasional": "1053 tahun 2018",
+   "TanggalSKOperasional": "09-07-2018",
+   "TanggalUploadSKOperasional": "2018-07-20 17:59:53.030",
+   "Akreditasi": "B"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "3.600 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. 5 Mb",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "rambotkn10@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "TK TELADAN ASSYUKRU",
+   "NPSN": "69768534",
+   "Alamat": "PULAU LANCANG",
+   "DesaKeluarahan": "PULAU PARI",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU SELATAN",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "SWASTA",
+   "BentukPendidikan": "TK"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Yayasan Pendidikan Assyukru Pulau Seribu",
+   "NPYP": "AA0015",
+   "NoSKPendirian": "008/YPAS/IV/2008",
+   "TanggalSKpendirian": "05-05-2008",
+   "NoSKOperasional": "01/1851.92",
+   "TanggalSKOperasional": "19-05-2016",
+   "TanggalUploadSKOperasional": "2023-08-07 13:23:46.447",
+   "Akreditasi": "B"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "176 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. 30 Mb",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "assyukru12@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "KB FAHMAN JAYYIDAN PULAU PANGGANG",
+   "NPSN": "69768541",
+   "Alamat": "PULAU PRAMUKA",
+   "DesaKeluarahan": "PULAU PANGGANG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU UTARA",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "SWASTA",
+   "BentukPendidikan": "KB"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi",
+   "Nauangan": "Yayasan Fahman Jayyidan",
+   "NPYP": "AA0025",
+   "NoSKPendirian": "",
+   "TanggalSKpendirian": "-",
+   "NoSKOperasional": "819.3/SPS-08/KAB/IX/2011",
+   "TanggalSKOperasional": "-",
+   "TanggalUploadSKOperasional": "-",
+   "Akreditasi": "-"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "48 m2",
+   "AksesInternet1": "1. -",
+   "AksesInternet2": "2. -",
+   "SumberListrik": "PLN"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "KBfahmanjayyidan@gmail.com",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "RA Miftahul Jannah",
+   "NPSN": "69733098",
+   "Alamat": "Jl. Kresek Nyamplong Rt 003/02",
+   "DesaKeluarahan": "PULAU KELAPA",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU UTARA",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "SWASTA",
+   "BentukPendidikan": "RA"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Agama",
+   "Nauangan": "",
+   "NPYP": "-",
+   "NoSKPendirian": "mj-2/5-A/PP.004/47/2001",
+   "TanggalSKpendirian": "16-10-2001",
+   "NoSKOperasional": "30 TAHUN 2016",
+   "TanggalSKOperasional": "08-01-2018",
+   "TanggalUploadSKOperasional": "-",
+   "Akreditasi": "-"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "0 m2",
+   "AksesInternet1": "1.",
+   "AksesInternet2": "2.",
+   "SumberListrik": "-"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "RA/BA/TA AL FALAH",
+   "NPSN": "69733096",
+   "Alamat": "Jl. Dermaga Timur Rt. 005/ 04",
+   "DesaKeluarahan": "PULAU KELAPA",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU UTARA",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "SWASTA",
+   "BentukPendidikan": "RA"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Agama",
+   "Nauangan": "",
+   "NPYP": "-",
+   "NoSKPendirian": "Kd.09.06/3/PP.00./56c/2009",
+   "TanggalSKpendirian": "05-11-2009",
+   "NoSKOperasional": "1603 TAHUN 2016",
+   "TanggalSKOperasional": "09-06-2016",
+   "TanggalUploadSKOperasional": "-",
+   "Akreditasi": "-"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "0 m2",
+   "AksesInternet1": "1.",
+   "AksesInternet2": "2.",
+   "SumberListrik": "-"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "",
+   "Website": ""
+  }
+ },
+ {
+  "IdentitasSekolah": {
+   "Nama": "RA/BA/TA AL MAGHFIROH",
+   "NPSN": "69733097",
+   "Alamat": "Jl. Ikan Moris Rt 001/05 No. 56",
+   "DesaKeluarahan": "PULAU PANGGANG",
+   "Kecamatan": "KEC. KEPULAUAN SERIBU UTARA",
+   "KabupatenKota": "KAB. KEPULAUAN SERIBU",
+   "Provinsi": "PROV. D.K.I. JAKARTA",
+   "Status": "SWASTA",
+   "BentukPendidikan": "RA"
+  },
+  "DokumenPerijinan": {
+   "KementerianPembina": "Kementerian Agama",
+   "Nauangan": "",
+   "NPYP": "-",
+   "NoSKPendirian": "01/SK/AL-MA/V/2000",
+   "TanggalSKpendirian": "13-09-2000",
+   "NoSKOperasional": "833 TAHUN 2016",
+   "TanggalSKOperasional": "05-04-2016",
+   "TanggalUploadSKOperasional": "-",
+   "Akreditasi": "-"
+  },
+  "SaranaPrasarana": {
+   "LuasTanah": "246 m2",
+   "AksesInternet1": "1.",
+   "AksesInternet2": "2.",
+   "SumberListrik": "-"
+  },
+  "Kontak": {
+   "Fax": "-",
+   "Telepon": "",
+   "Email": "",
+   "Website": ""
+  }
+ }
+]

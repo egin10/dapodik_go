@@ -89,3 +89,9 @@ type Kontak struct {
 	Email   string
 	Website string
 }
+
+// FORM
+type Options struct {
+	SatuanPendidikan SatuanPendidikan
+	Provinsi         Provinsi
+}

@@ -4,11 +4,17 @@ import (
 	"fmt"
 	"gin-dapodik/model"
 	"strings"
+	"time"
 
 	"github.com/gocolly/colly"
 )
 
 var base_url = "https://referensi.data.kemdikbud.go.id"
+
+func timeTrack(start time.Time) {
+	duration := time.Since(start).Seconds()
+	fmt.Printf("Durasi : %.2fs\n", duration)
+}
 
 func GetListSatuanPendidikan() []model.SatuanPendidikan {
 	c := colly.NewCollector()
@@ -107,6 +113,7 @@ func GetListDataUrl(url string) []model.DataUrl {
 }
 
 func GetDataSekolah(url string) model.DataSekolah {
+	defer timeTrack(time.Now())
 	c := colly.NewCollector()
 	item := model.DataSekolah{}
 
