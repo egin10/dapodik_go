@@ -7,12 +7,14 @@ import (
 	"os"
 )
 
-func WriteJSON(data []model.DataSekolah) {
+func WriteJSON(data []model.DataSekolah) error {
 	file, err := json.MarshalIndent(data, "", " ")
 	if err != nil {
 		fmt.Println("Unable to create json file")
-		return
+		return err
 	}
 
 	_ = os.WriteFile("data_sekolah.json", file, 0644)
+
+	return nil
 }

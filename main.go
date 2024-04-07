@@ -32,6 +32,7 @@ func main() {
 
 	form.FormSatuanPendidikan(&options, accessible)
 	form.FormProvinsi(&options, accessible)
+	form.FormExportTo(&options, accessible)
 	form.FormConfirm(&options, accessible)
 
 	// Get Semua Data Sekolah di Provinsi terpilih
@@ -39,28 +40,18 @@ func main() {
 		// Get List Url Kabupaten/Kota
 		listUrlKabKota := scraper.GetListDataUrl(options.Provinsi.Url)
 		for _, urlKabKota := range listUrlKabKota {
-			// fmt.Printf("\tKAB.KOTA : %s\n", urlKabKota.Name)
-
 			// Get Url Kecamatan
 			listUrlKecamatan := scraper.GetListDataUrl(urlKabKota.Url)
 			for _, urlKecamatan := range listUrlKecamatan {
-				// fmt.Printf("\tKECAMATAN : %s\n", urlKecamatan.Name)
-
 				// Get Url Sekolah
 				listUrlSekolah := scraper.GetListDataUrl(urlKecamatan.Url)
 				for _, urlSekolah := range listUrlSekolah {
 					// Get Data Detail Sekolah
 					dataSekolah := scraper.GetDataSekolah(urlSekolah.Url)
-					fmt.Printf("Nama: %s\n", dataSekolah.IdentitasSekolah.Nama)
-					fmt.Printf("NPSN: %s\n", dataSekolah.IdentitasSekolah.NPSN)
-					fmt.Printf("Alamat: %s\n", dataSekolah.IdentitasSekolah.Alamat)
-					fmt.Printf("BentukPendidikan: %s\n", dataSekolah.IdentitasSekolah.BentukPendidikan)
-					fmt.Println("--------------------------------------")
 
 					listDataSekolah = append(listDataSekolah, dataSekolah)
 				}
 			}
-			fmt.Println("=======================================")
 		}
 	}
 
@@ -92,7 +83,19 @@ func main() {
 				Render(sb.String()),
 		)
 
-		// Generate to JSON file
-		utils.WriteJSON(listDataSekolah)
+		switch options.ExportTo {
+		case "xlsx":
+			// Generate to xlsx file
+			errxlsx := utils.WireToExcel(listDataSekolah, options.SatuanPendidikan, options.Provinsi)
+			if errxlsx != nil {
+				fmt.Println("Unable to create xlsx file 🗿")
+			}
+		case "json":
+			// Generate to json file
+			errjson := utils.WriteJSON(listDataSekolah)
+			if errjson != nil {
+				fmt.Println("Unable to create json file 🗿")
+			}
+		}
 	}
 }

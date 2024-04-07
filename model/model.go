@@ -94,4 +94,5 @@ type Kontak struct {
 type Options struct {
 	SatuanPendidikan SatuanPendidikan
 	Provinsi         Provinsi
+	ExportTo         string
 }
