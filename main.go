@@ -1,8 +1,8 @@
 package main
 
 import (
-	"dapodik_go/scraper"
 	"fmt"
+	"gin-dapodik/scraper"
 	"time"
 )
 

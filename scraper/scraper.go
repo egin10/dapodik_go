@@ -1,8 +1,8 @@
 package scraper
 
 import (
-	"dapodik_go/model"
 	"fmt"
+	"gin-dapodik/model"
 	"strings"
 
 	"github.com/gocolly/colly"
