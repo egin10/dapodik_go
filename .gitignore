@@ -1,0 +1,4 @@
+#Ignore all download files
+*.json
+*.xlsx
+dist/
