@@ -91,7 +91,7 @@ type Kontak struct {
 }
 
 // FORM
-type Options struct {
+type OptionValue struct {
 	SatuanPendidikan SatuanPendidikan
 	Provinsi         Provinsi
 	ExportTo         string

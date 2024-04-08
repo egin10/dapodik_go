@@ -1,14 +1,12 @@
 package form
 
 import (
-	"fmt"
 	"gin-dapodik/model"
-	"os"
 
 	"github.com/charmbracelet/huh"
 )
 
-func FormConfirm(options *model.Options, accessible bool) {
+func FormConfirm(optionValue *model.OptionValue, accessible bool) *huh.Form {
 	form := huh.NewForm(
 		huh.NewGroup(
 			// Konfirmasi
@@ -19,9 +17,11 @@ func FormConfirm(options *model.Options, accessible bool) {
 		),
 	).WithAccessible(accessible)
 
-	errTwo := form.Run()
-	if errTwo != nil {
-		fmt.Println("Yah error:", errTwo)
-		os.Exit(1)
-	}
+	// err := form.Run()
+	// if err != nil {
+	// 	fmt.Println("Yah error:", err)
+	// 	os.Exit(1)
+	// }
+
+	return form
 }

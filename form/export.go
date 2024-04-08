@@ -8,7 +8,7 @@ import (
 	"github.com/charmbracelet/huh"
 )
 
-func FormExportTo(options *model.Options, accessible bool) {
+func FormExportTo(optionValue *model.OptionValue, accessible bool) {
 	form := huh.NewForm(
 		huh.NewGroup(
 			// Pilih Export
@@ -19,7 +19,7 @@ func FormExportTo(options *model.Options, accessible bool) {
 				).
 				Title("Ekstrak data menjadi").
 				Description("Silahkan pilih hasil file download").
-				Value(&options.ExportTo),
+				Value(&optionValue.ExportTo),
 		),
 	).WithAccessible(accessible)
 
