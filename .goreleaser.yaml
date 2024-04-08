@@ -24,7 +24,7 @@ builds:
 archives:
   - format: zip
     name_template: >-
-      {{ .Binary }}_
+      {{ .ProjectName }}_
       {{- title .Os }}_
       {{- if eq .Arch "amd64" }}x86_64
       {{- else if eq .Arch "386" }}i386
@@ -33,13 +33,13 @@ archives:
 
 release:
   make_latest: true
-  name_template: "{{.Binary}}-v{{.Version}} {{.Env.USER}}"
+  name_template: "{{.ProjectName}}-v{{.Version}} {{.Env.USER}}"
 
 checksum:
-  name_template: "{{ .Binary }}_checksums.txt"
+  name_template: "{{ .ProjectName }}_checksums.txt"
 
 source:
-  name_template: "{{ .Binary }}"
+  name_template: "{{ .ProjectName }}"
   format: "zip"
 
 changelog:
@@ -48,31 +48,3 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
-
-announce:
-  twitter:
-    message_template: '{{ .Binary }} {{ .Tag }} is out! Check it out at {{ .ReleaseURL }}'
-  mastodon:
-    message_template: '{{ .Binary }} {{ .Tag }} is out! Check it out at {{ .ReleaseURL }}'
-  reddit:
-    title_template: '{{ .Binary }} {{ .Tag }} is out!'
-  slack:
-    message_template: '{{ .Binary }} {{ .Tag }} is out! Check it out at {{ .ReleaseURL }}'
-  discord:
-    message_template: '{{ .Binary }} {{ .Tag }} is out! Check it out at {{ .ReleaseURL }}'
-  teams:
-    title_template: '{{ .Binary }} {{ .Tag }} is out!'
-    message_template: '{{ .Binary }} {{ .Tag }} is out! Check it out at {{ .ReleaseURL }}'
-  smtp:
-    subject_template: '{{ .Binary }} {{ .Tag }} is out!'
-  mattermost:
-    message_template: '{{ .Binary }} {{ .Tag }} is out! Check it out at {{ .ReleaseURL }}'
-    title_template: '{{ .Binary }} {{ .Tag }} is out!'
-  linkedin:
-    message_template: '{{ .Binary }} {{ .Tag }} is out! Check it out at {{ .ReleaseURL }}'
-  telegram:
-    message_template: '{{ .Binary }} {{ mdv2escape .Tag }} is out! Check it out at {{ mdv2escape .ReleaseURL }}'
-  webhook:
-    message_template: '{ "message": "{{ .Binary }} {{ .Tag }} is out! Check it out at {{ .ReleaseURL }}"}'
-  opencollective:
-    message_template: '{{ .Binary }} {{ .Tag }} is out!<br/>Check it out at <a href="{{ .ReleaseURL }}">{{ .ReleaseURL }}</a>'
