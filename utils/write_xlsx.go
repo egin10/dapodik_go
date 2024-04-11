@@ -73,7 +73,7 @@ func WireToExcel(data []model.DataSekolah, satuanPendidikan model.SatuanPendidik
 	}
 
 	now := time.Now()
-	filename := fmt.Sprintf("data_sekolah_%s_%s_%s.xlsx", strings.ToLower(satuanPendidikan.Name), strings.ToLower(provinsi.Name), now.Format("2006_01_02"))
+	filename := fmt.Sprintf("data_sekolah_%s_%s_%s.xlsx", strings.ToUpper(satuanPendidikan.Path), strings.ToUpper(provinsi.Name), now.Format("2006_01_02"))
 
 	if err := f.SaveAs(filename); err != nil {
 		return err
