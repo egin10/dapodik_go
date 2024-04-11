@@ -22,17 +22,12 @@ func FormProvinsi(optionValue *model.OptionValue, accessible bool) *huh.Form {
 			// Pilih Provinsi
 			huh.NewSelect[model.Provinsi]().
 				Options(generateListOptionsProvinsi(optionValue.SatuanPendidikan)...).
+				Key("provinsi").
 				Title("Provinsi").
 				Description("Silahkan pilih provinsi yang diinginkan").
 				Value(&optionValue.Provinsi),
 		),
 	).WithAccessible(accessible)
-
-	// err := form.Run()
-	// if err != nil {
-	// 	fmt.Println("Yah error:", err)
-	// 	os.Exit(1)
-	// }
 
 	return form
 }

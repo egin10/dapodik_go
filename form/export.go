@@ -1,14 +1,12 @@
 package form
 
 import (
-	"fmt"
 	"gin-dapodik/model"
-	"os"
 
 	"github.com/charmbracelet/huh"
 )
 
-func FormExportTo(optionValue *model.OptionValue, accessible bool) {
+func FormExportTo(optionValue *model.OptionValue, accessible bool) *huh.Form {
 	form := huh.NewForm(
 		huh.NewGroup(
 			// Pilih Export
@@ -17,15 +15,12 @@ func FormExportTo(optionValue *model.OptionValue, accessible bool) {
 					huh.NewOption("Excel (.xlsx)", "xlsx"),
 					huh.NewOption("JSON (.json)", "json"),
 				).
-				Title("Ekstrak data menjadi").
+				Title("Ekstrak data").
+				Key("export_to").
 				Description("Silahkan pilih hasil file download").
 				Value(&optionValue.ExportTo),
 		),
 	).WithAccessible(accessible)
 
-	errTwo := form.Run()
-	if errTwo != nil {
-		fmt.Println("Yah error:", errTwo)
-		os.Exit(1)
-	}
+	return form
 }

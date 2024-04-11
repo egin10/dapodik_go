@@ -1,6 +1,7 @@
 package form
 
 import (
+	"fmt"
 	"gin-dapodik/model"
 
 	"github.com/charmbracelet/huh"
@@ -11,17 +12,11 @@ func FormConfirm(optionValue *model.OptionValue, accessible bool) *huh.Form {
 		huh.NewGroup(
 			// Konfirmasi
 			huh.NewConfirm().
-				Title("Apakah sudah yakin dengan pilihan anda?").
+				Title(fmt.Sprintf("Apakah yakin dengan data satuan pendidikan %s di %s?", optionValue.SatuanPendidikan.Path, optionValue.Provinsi.Name)).
 				Affirmative("YA!").
 				Negative("TIDAK"),
 		),
 	).WithAccessible(accessible)
-
-	// err := form.Run()
-	// if err != nil {
-	// 	fmt.Println("Yah error:", err)
-	// 	os.Exit(1)
-	// }
 
 	return form
 }

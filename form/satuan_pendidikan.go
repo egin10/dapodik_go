@@ -18,11 +18,6 @@ func generateListOptionsSatuanPendidikan() []huh.Option[model.SatuanPendidikan] 
 
 func FormSatuanPendidikan(optionValue *model.OptionValue, accessible bool) *huh.Form {
 	form := huh.NewForm(
-		// Welcome Message
-		huh.NewGroup(huh.NewNote().
-			Description("Selamat datang di Gin-Dapodik👾.\n\n").
-			Description("Aplikasi ini hanya bisa digunakan untuk mengambil data sekolah \nsesuai dengan satuan pendidikan & provinsi yang diinginkan 👾")),
-
 		// Menu utama
 		huh.NewGroup(
 			// Pilih Satuan Pendidikan
@@ -34,12 +29,6 @@ func FormSatuanPendidikan(optionValue *model.OptionValue, accessible bool) *huh.
 				Value(&optionValue.SatuanPendidikan),
 		),
 	).WithAccessible(accessible)
-
-	// err := form.Run()
-	// if err != nil {
-	// 	fmt.Println("Yah error:", err)
-	// 	os.Exit(1)
-	// }
 
 	return form
 }
