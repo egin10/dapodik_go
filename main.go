@@ -10,10 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/charmbracelet/bubbles/spinner"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/huh"
-	"github.com/charmbracelet/lipgloss"
 	"github.com/common-nighthawk/go-figure"
 )
 
@@ -26,8 +24,6 @@ type Model struct {
 
 	accessible bool
 	process    string
-
-	spinner spinner.Model
 }
 
 type done int
@@ -36,30 +32,28 @@ func initialModel() Model {
 	accessible, _ := strconv.ParseBool(os.Getenv("ACCESSIBLE"))
 
 	myFigure := figure.NewFigure("GIN-DAPODIK", "", true)
-	welcomeMsg := "Selamat datang di Gin-Dapodik 👾.\n"
-	welcomeMsg += "Aplikasi ini hanya bisa digunakan untuk mengambil data sekolah \nsesuai dengan satuan pendidikan & provinsi yang diinginkan 👾"
+	welcomeMsg := "Aplikasi ini hanya bisa digunakan untuk mengambil data sekolah\n"
+	welcomeMsg += "sesuai dengan satuan pendidikan & provinsi yang diinginkan pada website\n"
+	welcomeMsg += "https://referensi.data.kemdikbud.go.id\n\n"
+	welcomeMsg += "Tekan ctrl+c untuk close program"
+
 	header := fmt.Sprintf(
 		"%s\n%s",
 		myFigure.String(),
 		welcomeMsg,
 	)
 
-	s := spinner.New()
-	s.Spinner = spinner.Monkey
-	s.Style = lipgloss.NewStyle().Foreground(lipgloss.Color("205"))
-
 	return Model{
 		menuIndex:   0,
 		optionValue: model.OptionValue{},
 		accessible:  accessible,
 		process:     "",
-		spinner:     s,
 		header:      header,
 	}
 }
 
 func (m Model) Init() tea.Cmd {
-	return m.spinner.Tick
+	return nil
 }
 
 func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
@@ -72,10 +66,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 	case done:
 		m.menuIndex = 0
-		m.process = fmt.Sprintf(
-			"\nData selesai di download dengan format file (.%s) 🗿\nTekan Enter untuk kembali ke menu awal.",
-			m.optionValue.ExportTo,
-		)
+		m.process = fmt.Sprintf("Data selesai diunduh dengan format file (.%s) 🗿\n", m.optionValue.ExportTo)
+		m.process += "Tekan Enter untuk kembali ke menu awal.\n"
+		// m.process += "Tekan ctrl+c untuk menutup aplikasi.\n"
 		return m, nil
 	}
 
@@ -95,10 +88,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.menuIndex++
 
 		str := fmt.Sprintf(
-			"\n%s Sedang mengunduh data %s di %s...\nProses ini tergantung koneksi internet anda.\n",
-			m.spinner.View(),
+			"🗂️  Sedang mengunduh data %s di %s...\nProses ini tergantung koneksi internet anda.\n",
 			strings.ToUpper(m.optionValue.SatuanPendidikan.Path),
-			m.optionValue.Provinsi.Name,
+			strings.ToUpper(m.optionValue.Provinsi.Name),
 		)
 		m.process = str
 
