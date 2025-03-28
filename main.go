@@ -126,8 +126,19 @@ func (m Model) scraping() tea.Cmd {
 			// Get Url semua Sekolah
 			listUrlSekolah := scraper.GetListDataUrl(urlKecamatan.Url)
 			for _, urlSekolah := range listUrlSekolah {
+				// Show info when processing school data
+				fmt.Printf("⬇️ Downloading: %s\n", urlSekolah.Url)
+
 				// Get Data Detail Sekolah
 				dataSekolah := scraper.GetDataSekolah(urlSekolah.Url)
+				// Show detailed school data
+				fmt.Printf("✅ Downloaded: %s\n", dataSekolah.IdentitasSekolah.Nama)
+				fmt.Printf("   🏫 NPSN: %s\n", dataSekolah.IdentitasSekolah.NPSN)
+				fmt.Printf("   📍 Alamat: %s\n", dataSekolah.IdentitasSekolah.Alamat)
+				fmt.Printf("   🏙️  Kecamatan: %s\n", dataSekolah.IdentitasSekolah.Kecamatan)
+				fmt.Printf("   🏛️  Kabupaten/Kota: %s\n", dataSekolah.IdentitasSekolah.KabupatenKota)
+				fmt.Printf("   🌍 Provinsi: %s\n", dataSekolah.IdentitasSekolah.Provinsi)
+				fmt.Println(strings.Repeat("-", 50))
 
 				listDataSekolah = append(listDataSekolah, dataSekolah)
 			}
