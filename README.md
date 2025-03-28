@@ -58,6 +58,8 @@ Aplikasi ini dibangun dengan menggunakan bahasa pemrograman Golang dan menggunak
 Boleh 🗿\
 kamu bisa join untuk ngembangin project ini biar lebih baik kedepannya dengan cara [berikut ini](https://github.com/endymuhardin/belajarGit/blob/master/cara-berkontribusi-opensources-github.md).
 
+### Change Log
+- Menampilkan proses download yang berlangsung.
 
 Happy Coding 🚀
 
